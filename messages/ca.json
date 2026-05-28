@@ -1,0 +1,82 @@
+{
+  "site": {
+    "title": "Fisioteràpia Avança",
+    "description": "Centre de fisioteràpia avançada. Recupera el teu benestar amb els millors professionals."
+  },
+  "nav": {
+    "home": "Inici",
+    "services": "Serveis",
+    "team": "Equip",
+    "testimonials": "Testimonis",
+    "booking": "Reserva",
+    "contact": "Contacte"
+  },
+  "hero": {
+    "title": "Recupera el teu moviment, recupera la teva vida",
+    "subtitle": "Fisioteràpia avançada amb els millors professionals i tecnologia puntera al teu abast.",
+    "cta_primary": "Reserva la teva cita",
+    "cta_secondary": "Els nostres serveis"
+  },
+  "services": {
+    "heading": "Els nostres Serveis",
+    "subheading": "Tractaments especialitzats per a cada necessitat",
+    "items": [
+      { "title": "Fisioteràpia Esportiva", "description": "Prevenció i recuperació de lesions esportives amb tècniques avançades." },
+      { "title": "Rehabilitació", "description": "Programes personalitzats de recuperació post-lesió o post-quirúrgica." },
+      { "title": "Teràpia Manual", "description": "Tècniques manuals per alleujar el dolor i millorar la mobilitat articular." },
+      { "title": "Fisioteràpia Pediàtrica", "description": "Atenció especialitzada per al desenvolupament motor dels més petits." },
+      { "title": "Punció Seca", "description": "Tractament eficaç per a punts gatell i dolor miofascial crònic." },
+      { "title": "Exercici Terapèutic", "description": "Pla d'exercicis individualitzat per reforçar i prevenir recaigudes." }
+    ]
+  },
+  "team": {
+    "heading": "El Nostre Equip",
+    "subheading": "Professionals compromesos amb la teva salut",
+    "members": [
+      { "name": "Dra. Anna Martínez", "role": "Fisioterapeuta Col·legiada", "bio": "Especialista en teràpia manual i rehabilitació esportiva amb més de 15 anys d'experiència.", "image": "/images/team/anna.jpg" },
+      { "name": "Dr. Carles Puig", "role": "Osteòpata i Fisioterapeuta", "bio": "Expert en tècniques osteopàtiques i tractament del dolor crònic.", "image": "/images/team/carles.jpg" },
+      { "name": "Laia Font", "role": "Fisioterapeuta Pediàtrica", "bio": "Dedicada al desenvolupament motor infantil i l'atenció primerenca.", "image": "/images/team/laia.jpg" },
+      { "name": "Marc Soler", "role": "Fisioterapeuta Esportiu", "bio": "Preparador físic i especialista en readaptació esportiva d'alt rendiment.", "image": "/images/team/marc.jpg" }
+    ]
+  },
+  "testimonials": {
+    "heading": "Què Diuen Els Nostres Pacients",
+    "subheading": "Històries reals de recuperació",
+    "items": [
+      { "name": "Marta R.", "text": "Després d'una lesió d'esquena crònica, finalment he trobat alleujament. L'equip és increïble.", "stars": 5 },
+      { "name": "Jordi P.", "text": "Em van ajudar a tornar a córrer després d'una lesió de genoll. Professionals i molt propers.", "stars": 5 },
+      { "name": "Gemma L.", "text": "Porto el meu fill des dels 3 anys i el progrés ha estat espectacular. Totalment recomanable.", "stars": 5 }
+    ]
+  },
+  "booking": {
+    "heading": "Reserva la Teva Cita",
+    "subheading": "Tria el dia i hora que millor et vagi",
+    "cta": "Reservar online"
+  },
+  "contact": {
+    "heading": "Contacta'ns",
+    "subheading": "Estem aquí per ajudar-te",
+    "address": "Carrer Major, 123, 08001 Barcelona",
+    "phone": "+34 931 234 567",
+    "email": "info@fisioterapia-avanza.cat",
+    "hours": "Dilluns - Divendres: 8:00 - 20:00",
+    "form": {
+      "name": "Nom",
+      "email": "Correu electrònic",
+      "phone": "Telèfon",
+      "message": "Missatge",
+      "submit": "Enviar missatge",
+      "success": "Missatge enviat correctament! Et contactarem aviat.",
+      "name_required": "El nom és obligatori",
+      "email_required": "El correu és obligatori",
+      "email_invalid": "Correu electrònic no vàlid",
+      "message_required": "El missatge és obligatori"
+    }
+  },
+  "footer": {
+    "rights": "Tots els drets reservats.",
+    "privacy": "Política de Privacitat",
+    "legal": "Avís Legal",
+    "cookies": "Política de Cookies"
+  }
+}

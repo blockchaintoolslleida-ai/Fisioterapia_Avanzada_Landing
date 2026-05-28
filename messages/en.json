@@ -1,0 +1,82 @@
+{
+  "site": {
+    "title": "Fisioteràpia Avança",
+    "description": "Advanced physiotherapy center. Recover your wellbeing with the best professionals."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "team": "Team",
+    "testimonials": "Testimonials",
+    "booking": "Booking",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Recover your movement, recover your life",
+    "subtitle": "Advanced physiotherapy with the best professionals and cutting-edge technology at your fingertips.",
+    "cta_primary": "Book your appointment",
+    "cta_secondary": "Our services"
+  },
+  "services": {
+    "heading": "Our Services",
+    "subheading": "Specialized treatments for every need",
+    "items": [
+      { "title": "Sports Physiotherapy", "description": "Prevention and recovery of sports injuries with advanced techniques." },
+      { "title": "Rehabilitation", "description": "Personalized post-injury or post-surgical recovery programs." },
+      { "title": "Manual Therapy", "description": "Manual techniques to relieve pain and improve joint mobility." },
+      { "title": "Pediatric Physiotherapy", "description": "Specialized care for children's motor development." },
+      { "title": "Dry Needling", "description": "Effective treatment for trigger points and chronic myofascial pain." },
+      { "title": "Therapeutic Exercise", "description": "Individualized exercise plan to strengthen and prevent relapses." }
+    ]
+  },
+  "team": {
+    "heading": "Our Team",
+    "subheading": "Professionals committed to your health",
+    "members": [
+      { "name": "Dr. Anna Martínez", "role": "Registered Physiotherapist", "bio": "Specialist in manual therapy and sports rehabilitation with over 15 years of experience.", "image": "/images/team/anna.jpg" },
+      { "name": "Dr. Carles Puig", "role": "Osteopath and Physiotherapist", "bio": "Expert in osteopathic techniques and chronic pain treatment.", "image": "/images/team/carles.jpg" },
+      { "name": "Laia Font", "role": "Pediatric Physiotherapist", "bio": "Dedicated to children's motor development and early intervention.", "image": "/images/team/laia.jpg" },
+      { "name": "Marc Soler", "role": "Sports Physiotherapist", "bio": "Physical trainer and high-performance sports readaptation specialist.", "image": "/images/team/marc.jpg" }
+    ]
+  },
+  "testimonials": {
+    "heading": "What Our Patients Say",
+    "subheading": "Real recovery stories",
+    "items": [
+      { "name": "Marta R.", "text": "After a chronic back injury, I have finally found relief. The team is incredible.", "stars": 5 },
+      { "name": "Jordi P.", "text": "They helped me get back to running after a knee injury. Professional and very caring.", "stars": 5 },
+      { "name": "Gemma L.", "text": "I've been bringing my son since he was 3 and the progress has been spectacular. Highly recommended.", "stars": 5 }
+    ]
+  },
+  "booking": {
+    "heading": "Book Your Appointment",
+    "subheading": "Choose the day and time that suits you best",
+    "cta": "Book online"
+  },
+  "contact": {
+    "heading": "Contact Us",
+    "subheading": "We're here to help you",
+    "address": "Carrer Major, 123, 08001 Barcelona",
+    "phone": "+34 931 234 567",
+    "email": "info@fisioterapia-avanza.cat",
+    "hours": "Monday - Friday: 8:00 - 20:00",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send message",
+      "success": "Message sent successfully! We'll contact you soon.",
+      "name_required": "Name is required",
+      "email_required": "Email is required",
+      "email_invalid": "Invalid email address",
+      "message_required": "Message is required"
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "legal": "Legal Notice",
+    "cookies": "Cookie Policy"
+  }
+}
