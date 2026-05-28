@@ -55,11 +55,25 @@
   },
   "contact": {
     "heading": "Contacta con Nosotros",
-    "subheading": "Estamos aquí para ayudarte",
-    "address": "Calle Mayor, 123, 08001 Barcelona",
-    "phone": "+34 931 234 567",
-    "email": "info@fisioterapia-avanza.cat",
-    "hours": "Lunes - Viernes: 8:00 - 20:00",
+    "subheading": "Te atendemos en Lleida y Mequinenza",
+    "locations": [
+      {
+        "name": "Traumare — Lleida",
+        "address": "Avda. Blondel, 98, 25002 Lleida",
+        "phone": "+34 973 268 599",
+        "email": "fisio@traumare.com",
+        "hours": "Lunes - Viernes: 8:00 - 20:00",
+        "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2983.5!2d0.6200!3d41.6200!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDM3JzEyLjAiTiAwwrAzNy'xMi4wIkU!5e0!3m2!1sca!2ses!4v1"
+      },
+      {
+        "name": "TraumareSport — Mequinenza",
+        "address": "Calle A, 31, 50170 Mequinenza, Zaragoza",
+        "phone": "+34 973 268 599",
+        "email": "fisio@traumare.com",
+        "hours": "Lunes - Viernes: 8:00 - 20:00",
+        "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2976.8!2d0.3000!3d41.3700!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDIyJzEyLjAiTiAwwrAxOCcwMC4wIkU!5e0!3m2!1sca!2ses!4v1"
+      }
+    ],
     "form": {
       "name": "Nombre",
       "email": "Correo electrónico",

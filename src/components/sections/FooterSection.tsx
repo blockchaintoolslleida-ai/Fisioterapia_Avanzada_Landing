@@ -35,6 +35,19 @@ export default function FooterSection() {
           </div>
 
           <div>
+            <h4 className="mb-4 font-semibold">Contacte</h4>
+            <ul className="space-y-2 text-sm text-white/60">
+              <li className="font-medium text-white/80">Traumare — Lleida</li>
+              <li>Avda. Blondel, 98, 25002 Lleida</li>
+              <li>+34 973 268 599</li>
+              <li className="mb-3">fisio@traumare.com</li>
+              <li className="font-medium text-white/80">TraumareSport — Mequinensa</li>
+              <li>Calle A, 31, 50170 Mequinensa, Zaragoza</li>
+              <li>fisio@traumare.com</li>
+            </ul>
+          </div>
+
+          <div>
             <h4 className="mb-4 font-semibold">Legal</h4>
             <ul className="space-y-2 text-sm text-white/60">
               <li>
@@ -52,16 +65,6 @@ export default function FooterSection() {
                   {t("cookies")}
                 </Link>
               </li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="mb-4 font-semibold">Contacte</h4>
-            <ul className="space-y-2 text-sm text-white/60">
-              <li>Carrer Major, 123</li>
-              <li>08001 Barcelona</li>
-              <li>+34 931 234 567</li>
-              <li>info@fisioterapia-avanza.cat</li>
             </ul>
           </div>
         </div>
