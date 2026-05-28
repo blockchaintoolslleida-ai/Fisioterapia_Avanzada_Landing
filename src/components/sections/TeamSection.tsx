@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { useState } from "react"
 import SectionHeading from "@/components/ui/SectionHeading"
 
 interface TeamMember {
@@ -10,6 +11,46 @@ interface TeamMember {
   role: string
   bio: string
   image: string
+}
+
+const avatarColors = [
+  "bg-primary/20 text-primary",
+  "bg-secondary/20 text-secondary-dark",
+  "bg-accent/20 text-accent",
+  "bg-primary-light/30 text-primary-dark",
+]
+
+function TeamImage({ member, index }: { member: TeamMember; index: number }) {
+  const [failed, setFailed] = useState(false)
+
+  const initials = member.name
+    .split(" ")
+    .map((n) => n[0])
+    .filter((c) => c && c !== ".")
+    .join("")
+    .slice(0, 2)
+    .toUpperCase()
+
+  if (failed) {
+    return (
+      <div
+        className={`flex h-full w-full items-center justify-center ${avatarColors[index % avatarColors.length]}`}
+      >
+        <span className="text-5xl font-display font-bold">{initials}</span>
+      </div>
+    )
+  }
+
+  return (
+    <Image
+      src={member.image}
+      alt={member.name}
+      fill
+      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+      className="object-cover transition-transform duration-500 group-hover:scale-110"
+      onError={() => setFailed(true)}
+    />
+  )
 }
 
 export default function TeamSection() {
@@ -35,13 +76,7 @@ export default function TeamSection() {
             className="group text-center"
           >
             <div className="relative mb-4 aspect-[3/4] overflow-hidden rounded-2xl bg-surface-alt">
-              <Image
-                src={member.image}
-                alt={member.name}
-                fill
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
-              />
+              <TeamImage member={member} index={i} />
             </div>
             <h3 className="text-lg font-display font-bold text-text">
               {member.name}
