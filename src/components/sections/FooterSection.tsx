@@ -1,9 +1,15 @@
+"use client"
+
 import { useTranslations } from "next-intl"
 import { Link } from "@/i18n/navigation"
 
 export default function FooterSection() {
   const t = useTranslations("footer")
   const nav = useTranslations("nav")
+
+  const scrollTo = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: "smooth" })
+  }
 
   return (
     <footer className="bg-text text-white">
@@ -23,12 +29,15 @@ export default function FooterSection() {
             <ul className="space-y-2 text-sm text-white/60">
               {(["home", "services", "team", "contact"] as const).map((key) => (
                 <li key={key}>
-                  <Link
-                    href="/"
+                  <button
+                    onClick={() => {
+                      const id = key === "home" ? "hero" : key
+                      scrollTo(id)
+                    }}
                     className="transition-colors hover:text-white"
                   >
                     {nav(key)}
-                  </Link>
+                  </button>
                 </li>
               ))}
             </ul>
@@ -51,17 +60,17 @@ export default function FooterSection() {
             <h4 className="mb-4 font-semibold">Legal</h4>
             <ul className="space-y-2 text-sm text-white/60">
               <li>
-                <Link href="/" className="transition-colors hover:text-white">
+                <Link href="/privacy" className="transition-colors hover:text-white">
                   {t("privacy")}
                 </Link>
               </li>
               <li>
-                <Link href="/" className="transition-colors hover:text-white">
+                <Link href="/legal" className="transition-colors hover:text-white">
                   {t("legal")}
                 </Link>
               </li>
               <li>
-                <Link href="/" className="transition-colors hover:text-white">
+                <Link href="/cookies" className="transition-colors hover:text-white">
                   {t("cookies")}
                 </Link>
               </li>

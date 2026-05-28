@@ -21,31 +21,81 @@
     "heading": "Nuestros Servicios",
     "subheading": "Tratamientos especializados para cada necesidad",
     "items": [
-      { "title": "Fisioterapia Deportiva", "description": "Prevención y recuperación de lesiones deportivas con técnicas avanzadas." },
-      { "title": "Rehabilitación", "description": "Programas personalizados de recuperación post-lesión o post-quirúrgica." },
-      { "title": "Terapia Manual", "description": "Técnicas manuales para aliviar el dolor y mejorar la movilidad articular." },
-      { "title": "Fisioterapia Pediátrica", "description": "Atención especializada para el desarrollo motor de los más pequeños." },
-      { "title": "Punción Seca", "description": "Tratamiento eficaz para puntos gatillo y dolor miofascial crónico." },
-      { "title": "Ejercicio Terapéutico", "description": "Plan de ejercicios individualizado para reforzar y prevenir recaídas." }
+      {
+        "title": "Fisioterapia Deportiva",
+        "description": "Prevención y recuperación de lesiones deportivas con técnicas avanzadas."
+      },
+      {
+        "title": "Rehabilitación",
+        "description": "Programas personalizados de recuperación post-lesión o post-quirúrgica."
+      },
+      {
+        "title": "Terapia Manual",
+        "description": "Técnicas manuales para aliviar el dolor y mejorar la movilidad articular."
+      },
+      {
+        "title": "Fisioterapia Pediátrica",
+        "description": "Atención especializada para el desarrollo motor de los más pequeños."
+      },
+      {
+        "title": "Punción Seca",
+        "description": "Tratamiento eficaz para puntos gatillo y dolor miofascial crónico."
+      },
+      {
+        "title": "Ejercicio Terapéutico",
+        "description": "Plan de ejercicios individualizado para reforzar y prevenir recaídas."
+      }
     ]
   },
   "team": {
     "heading": "Nuestro Equipo",
     "subheading": "Profesionales comprometidos con tu salud",
     "members": [
-      { "name": "Dra. Anna Martínez", "role": "Fisioterapeuta Colegiada", "bio": "Especialista en terapia manual y rehabilitación deportiva con más de 15 años de experiencia.", "image": "/images/team/anna.jpg" },
-      { "name": "Dr. Carles Puig", "role": "Osteópata y Fisioterapeuta", "bio": "Experto en técnicas osteopáticas y tratamiento del dolor crónico.", "image": "/images/team/carles.jpg" },
-      { "name": "Laia Font", "role": "Fisioterapeuta Pediátrica", "bio": "Dedicada al desarrollo motor infantil y la atención temprana.", "image": "/images/team/laia.jpg" },
-      { "name": "Marc Soler", "role": "Fisioterapeuta Deportivo", "bio": "Preparador físico y especialista en readaptación deportiva de alto rendimiento.", "image": "/images/team/marc.jpg" }
+      {
+        "name": "Dra. Anna Martínez",
+        "role": "Fisioterapeuta Colegiada",
+        "bio": "Especialista en terapia manual y rehabilitación deportiva con más de 15 años de experiencia.",
+        "image": "/images/team/anna.jpg"
+      },
+      {
+        "name": "Dr. Carles Puig",
+        "role": "Osteópata y Fisioterapeuta",
+        "bio": "Experto en técnicas osteopáticas y tratamiento del dolor crónico.",
+        "image": "/images/team/carles.jpg"
+      },
+      {
+        "name": "Laia Font",
+        "role": "Fisioterapeuta Pediátrica",
+        "bio": "Dedicada al desarrollo motor infantil y la atención temprana.",
+        "image": "/images/team/laia.jpg"
+      },
+      {
+        "name": "Marc Soler",
+        "role": "Fisioterapeuta Deportivo",
+        "bio": "Preparador físico y especialista en readaptación deportiva de alto rendimiento.",
+        "image": "/images/team/marc.jpg"
+      }
     ]
   },
   "testimonials": {
     "heading": "Qué Dicen Nuestros Pacientes",
     "subheading": "Historias reales de recuperación",
     "items": [
-      { "name": "Marta R.", "text": "Después de una lesión de espalda crónica, finalmente he encontrado alivio. El equipo es increíble.", "stars": 5 },
-      { "name": "Jordi P.", "text": "Me ayudaron a volver a correr después de una lesión de rodilla. Profesionales y muy cercanos.", "stars": 5 },
-      { "name": "Gemma L.", "text": "Llevo a mi hijo desde los 3 años y el progreso ha sido espectacular. Totalmente recomendable.", "stars": 5 }
+      {
+        "name": "Marta R.",
+        "text": "Después de una lesión de espalda crónica, finalmente he encontrado alivio. El equipo es increíble.",
+        "stars": 5
+      },
+      {
+        "name": "Jordi P.",
+        "text": "Me ayudaron a volver a correr después de una lesión de rodilla. Profesionales y muy cercanos.",
+        "stars": 5
+      },
+      {
+        "name": "Gemma L.",
+        "text": "Llevo a mi hijo desde los 3 años y el progreso ha sido espectacular. Totalmente recomendable.",
+        "stars": 5
+      }
     ]
   },
   "booking": {
@@ -92,5 +142,47 @@
     "privacy": "Política de Privacidad",
     "legal": "Aviso Legal",
     "cookies": "Política de Cookies"
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "effective": "Fecha de entrada en vigor",
+    "s1_title": "1. Responsable del Tratamiento",
+    "s1_text": "Fisioterapia Avanza, con domicilio en Avda. Blondel, 98, 25002 Lleida, es el responsable del tratamiento de los datos personales.",
+    "s2_title": "2. Finalidad del Tratamiento",
+    "s2_text": "Los datos facilitados serán tratados con la finalidad de gestionar la relación profesional, responder consultas y enviar información sobre nuestros servicios.",
+    "s3_title": "3. Legitimación",
+    "s3_text": "El tratamiento de los datos se basa en el consentimiento del usuario y en la ejecución de la relación profesional.",
+    "s4_title": "4. Conservación de los Datos",
+    "s4_text": "Los datos se conservarán durante el tiempo necesario para cumplir con la finalidad para la que fueron recogidos y para determinar las posibles responsabilidades que se pudieran derivar.",
+    "s5_title": "5. Derechos del Usuario",
+    "s5_text": "El usuario puede ejercer los derechos de acceso, rectificación, supresión, limitación, portabilidad y oposición enviando un correo a fisio@traumare.com.",
+    "s6_title": "6. Medidas de Seguridad",
+    "s6_text": "Aplicamos las medidas técnicas y organizativas necesarias para garantizar la seguridad de los datos personales."
+  },
+  "legal": {
+    "title": "Aviso Legal",
+    "s1_title": "1. Identificación del Titular",
+    "s1_text": "En cumplimiento de la Ley 34/2002 de Servicios de la Sociedad de la Información, le informamos que el titular de este sitio web es Fisioterapia Avanza, con NIF/CIF pendiente, domicilio en Avda. Blondel, 98, 25002 Lleida, y correo electrónico fisio@traumare.com.",
+    "s2_title": "2. Condiciones de Uso",
+    "s2_text": "El acceso y uso de este sitio web atribuye la condición de usuario e implica la aceptación plena de las condiciones de uso aquí establecidas.",
+    "s3_title": "3. Propiedad Intelectual e Industrial",
+    "s3_text": "Todos los contenidos del sitio web (textos, imágenes, logotipos, diseño) son propiedad del titular o de terceros que han autorizado su uso.",
+    "s4_title": "4. Exención de Responsabilidad",
+    "s4_text": "El titular no se hace responsable de los daños y perjuicios que se pudieran derivar de la información publicada en el sitio web, siempre que esta haya sido manipulada o introducida por terceros ajenos.",
+    "s5_title": "5. Legislación Aplicable",
+    "s5_text": "La ley aplicable en caso de disputa o conflicto de interpretación de los términos será la legislación española."
+  },
+  "cookies": {
+    "title": "Política de Cookies",
+    "s1_title": "1. Qué son las Cookies",
+    "s1_text": "Las cookies son pequeños archivos de texto que los sitios web instalan en el ordenador o dispositivo móvil del usuario. Estas permiten que el sitio web recuerde información sobre la visita.",
+    "s2_title": "2. Tipos de Cookies",
+    "s2_text": "Este sitio web utiliza cookies técnicas necesarias para el funcionamiento de la página y cookies analíticas que nos ayudan a entender cómo los usuarios interactúan con el sitio.",
+    "s3_title": "3. Cookies de Terceros",
+    "s3_text": "Algunos servicios de terceros, como Google Maps, pueden instalar sus propias cookies. Recomendamos consultar sus políticas.",
+    "s4_title": "4. Cómo Gestionar las Cookies",
+    "s4_text": "El usuario puede configurar su navegador para rechazar todas o algunas cookies. La desactivación de las cookies técnicas puede afectar el funcionamiento del sitio web.",
+    "s5_title": "5. Más Información",
+    "s5_text": "Para más información sobre el tratamiento de datos, consulte nuestra Política de Privacidad o contacte con nosotros en fisio@traumare.com."
   }
 }

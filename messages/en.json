@@ -21,31 +21,81 @@
     "heading": "Our Services",
     "subheading": "Specialized treatments for every need",
     "items": [
-      { "title": "Sports Physiotherapy", "description": "Prevention and recovery of sports injuries with advanced techniques." },
-      { "title": "Rehabilitation", "description": "Personalized post-injury or post-surgical recovery programs." },
-      { "title": "Manual Therapy", "description": "Manual techniques to relieve pain and improve joint mobility." },
-      { "title": "Pediatric Physiotherapy", "description": "Specialized care for children's motor development." },
-      { "title": "Dry Needling", "description": "Effective treatment for trigger points and chronic myofascial pain." },
-      { "title": "Therapeutic Exercise", "description": "Individualized exercise plan to strengthen and prevent relapses." }
+      {
+        "title": "Sports Physiotherapy",
+        "description": "Prevention and recovery of sports injuries with advanced techniques."
+      },
+      {
+        "title": "Rehabilitation",
+        "description": "Personalized post-injury or post-surgical recovery programs."
+      },
+      {
+        "title": "Manual Therapy",
+        "description": "Manual techniques to relieve pain and improve joint mobility."
+      },
+      {
+        "title": "Pediatric Physiotherapy",
+        "description": "Specialized care for children's motor development."
+      },
+      {
+        "title": "Dry Needling",
+        "description": "Effective treatment for trigger points and chronic myofascial pain."
+      },
+      {
+        "title": "Therapeutic Exercise",
+        "description": "Individualized exercise plan to strengthen and prevent relapses."
+      }
     ]
   },
   "team": {
     "heading": "Our Team",
     "subheading": "Professionals committed to your health",
     "members": [
-      { "name": "Dr. Anna Martínez", "role": "Registered Physiotherapist", "bio": "Specialist in manual therapy and sports rehabilitation with over 15 years of experience.", "image": "/images/team/anna.jpg" },
-      { "name": "Dr. Carles Puig", "role": "Osteopath and Physiotherapist", "bio": "Expert in osteopathic techniques and chronic pain treatment.", "image": "/images/team/carles.jpg" },
-      { "name": "Laia Font", "role": "Pediatric Physiotherapist", "bio": "Dedicated to children's motor development and early intervention.", "image": "/images/team/laia.jpg" },
-      { "name": "Marc Soler", "role": "Sports Physiotherapist", "bio": "Physical trainer and high-performance sports readaptation specialist.", "image": "/images/team/marc.jpg" }
+      {
+        "name": "Dr. Anna Martínez",
+        "role": "Registered Physiotherapist",
+        "bio": "Specialist in manual therapy and sports rehabilitation with over 15 years of experience.",
+        "image": "/images/team/anna.jpg"
+      },
+      {
+        "name": "Dr. Carles Puig",
+        "role": "Osteopath and Physiotherapist",
+        "bio": "Expert in osteopathic techniques and chronic pain treatment.",
+        "image": "/images/team/carles.jpg"
+      },
+      {
+        "name": "Laia Font",
+        "role": "Pediatric Physiotherapist",
+        "bio": "Dedicated to children's motor development and early intervention.",
+        "image": "/images/team/laia.jpg"
+      },
+      {
+        "name": "Marc Soler",
+        "role": "Sports Physiotherapist",
+        "bio": "Physical trainer and high-performance sports readaptation specialist.",
+        "image": "/images/team/marc.jpg"
+      }
     ]
   },
   "testimonials": {
     "heading": "What Our Patients Say",
     "subheading": "Real recovery stories",
     "items": [
-      { "name": "Marta R.", "text": "After a chronic back injury, I have finally found relief. The team is incredible.", "stars": 5 },
-      { "name": "Jordi P.", "text": "They helped me get back to running after a knee injury. Professional and very caring.", "stars": 5 },
-      { "name": "Gemma L.", "text": "I've been bringing my son since he was 3 and the progress has been spectacular. Highly recommended.", "stars": 5 }
+      {
+        "name": "Marta R.",
+        "text": "After a chronic back injury, I have finally found relief. The team is incredible.",
+        "stars": 5
+      },
+      {
+        "name": "Jordi P.",
+        "text": "They helped me get back to running after a knee injury. Professional and very caring.",
+        "stars": 5
+      },
+      {
+        "name": "Gemma L.",
+        "text": "I've been bringing my son since he was 3 and the progress has been spectacular. Highly recommended.",
+        "stars": 5
+      }
     ]
   },
   "booking": {
@@ -92,5 +142,47 @@
     "privacy": "Privacy Policy",
     "legal": "Legal Notice",
     "cookies": "Cookie Policy"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "effective": "Effective Date",
+    "s1_title": "1. Data Controller",
+    "s1_text": "Fisioteràpia Avança, located at Avda. Blondel, 98, 25002 Lleida, is the data controller responsible for processing personal data.",
+    "s2_title": "2. Purpose of Processing",
+    "s2_text": "The data provided will be processed for the purpose of managing the professional relationship, responding to inquiries, and sending information about our services.",
+    "s3_title": "3. Legal Basis",
+    "s3_text": "Data processing is based on the user's consent and the execution of the professional relationship.",
+    "s4_title": "4. Data Retention",
+    "s4_text": "Data will be retained for the time necessary to fulfill the purpose for which it was collected and to determine any potential liabilities that may arise.",
+    "s5_title": "5. User Rights",
+    "s5_text": "Users may exercise their rights of access, rectification, erasure, restriction, portability, and objection by sending an email to fisio@traumare.com.",
+    "s6_title": "6. Security Measures",
+    "s6_text": "We apply the necessary technical and organizational measures to ensure the security of personal data."
+  },
+  "legal": {
+    "title": "Legal Notice",
+    "s1_title": "1. Owner Identification",
+    "s1_text": "In compliance with Law 34/2002 on Information Society Services, we inform you that the owner of this website is Fisioteràpia Avança, with pending tax ID, located at Avda. Blondel, 98, 25002 Lleida, and email fisio@traumare.com.",
+    "s2_title": "2. Terms of Use",
+    "s2_text": "Access and use of this website confers the status of user and implies full acceptance of the terms of use established herein.",
+    "s3_title": "3. Intellectual and Industrial Property",
+    "s3_text": "All website content (texts, images, logos, design) is owned by the owner or third parties who have authorized its use.",
+    "s4_title": "4. Disclaimer",
+    "s4_text": "The owner is not responsible for damages that may arise from information published on the website, provided it has been manipulated or introduced by third parties.",
+    "s5_title": "5. Applicable Law",
+    "s5_text": "The applicable law in case of dispute or conflict of interpretation of the terms shall be Spanish law."
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "s1_title": "1. What are Cookies",
+    "s1_text": "Cookies are small text files that websites install on the user's computer or mobile device. They allow the website to remember information about the visit.",
+    "s2_title": "2. Types of Cookies",
+    "s2_text": "This website uses technical cookies necessary for the operation of the site and analytical cookies that help us understand how users interact with the site.",
+    "s3_title": "3. Third-Party Cookies",
+    "s3_text": "Some third-party services, such as Google Maps, may install their own cookies. We recommend reviewing their policies.",
+    "s4_title": "4. How to Manage Cookies",
+    "s4_text": "Users can configure their browser to reject all or some cookies. Disabling technical cookies may affect the website's functionality.",
+    "s5_title": "5. More Information",
+    "s5_text": "For more information about data processing, please consult our Privacy Policy or contact us at fisio@traumare.com."
   }
 }

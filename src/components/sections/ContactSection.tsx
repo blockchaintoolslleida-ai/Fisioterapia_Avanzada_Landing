@@ -15,6 +15,22 @@ interface Location {
   mapsUrl: string
 }
 
+function MapsEmbed({ address, name }: { address: string; name: string }) {
+  const encoded = encodeURIComponent(address)
+  return (
+    <iframe
+      src={`https://maps.google.com/maps?q=${encoded}&output=embed`}
+      width="100%"
+      height={200}
+      className="border-0"
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title={name}
+    />
+  )
+}
+
 export default function ContactSection() {
   const t = useTranslations("contact")
   const locations = t.raw("locations") as Location[]
@@ -91,16 +107,7 @@ export default function ContactSection() {
               </div>
 
               <div className="mt-5 overflow-hidden rounded-xl border">
-                <iframe
-                  src={loc.mapsUrl}
-                  width="100%"
-                  height={200}
-                  className="border-0"
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title={loc.name}
-                />
+                <MapsEmbed address={loc.address} name={loc.name} />
               </div>
             </motion.div>
           ))}
