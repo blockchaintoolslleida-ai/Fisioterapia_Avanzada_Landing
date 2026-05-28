@@ -2,8 +2,11 @@
 
 import { useTranslations } from "next-intl"
 import { motion } from "framer-motion"
-import { Calendar } from "lucide-react"
+import { Calendar, ExternalLink } from "lucide-react"
 import SectionHeading from "@/components/ui/SectionHeading"
+
+const DOCTORALIA_URL =
+  "https://www.doctoralia.es/clinicas/traumare?utm_id=2973&utm_source=widget-facility-2973&utm_medium=facility-button&utm_campaign=&utm_content=#highlight-calendar"
 
 export default function BookingSection() {
   const t = useTranslations("booking")
@@ -22,22 +25,20 @@ export default function BookingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-50px" }}
           transition={{ duration: 0.6 }}
-          className="overflow-hidden rounded-2xl border bg-white shadow-sm"
+          className="mx-auto max-w-lg text-center"
         >
-          <div className="flex items-center gap-3 border-b px-6 py-4">
-            <Calendar className="h-5 w-5 text-primary" />
-            <span className="font-semibold text-text">{t("cta")}</span>
+          <div className="mb-6 inline-flex rounded-2xl bg-primary/10 p-4 text-primary">
+            <Calendar className="h-10 w-10" />
           </div>
-          <div className="h-[650px]">
-            <iframe
-              src="https://calendly.com/your-username/consulta-fisioterapia?embed_domain=fisioterapia-avanza.cat&amp;embed_type=Inline"
-              width="100%"
-              height="100%"
-              className="border-0"
-              title="Reserva de cita"
-              loading="lazy"
-            />
-          </div>
+          <a
+            href={DOCTORALIA_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-4 font-semibold text-white transition-all hover:bg-primary-dark hover:shadow-lg"
+          >
+            {t("cta")}
+            <ExternalLink className="h-4 w-4" />
+          </a>
         </motion.div>
       </div>
     </section>
